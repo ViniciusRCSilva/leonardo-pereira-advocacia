@@ -17,8 +17,8 @@ export default function Header(){
                 </div>
 
                 <div className="flex flex-row w-36 justify-between text-4xl">
-                    <WhatsappLogo className="text-[#25D366] cursor-pointer"/>
-                    <InstagramLogo className="text-[#E4405F] cursor-pointer"/>
+                    <WhatsappLogo className="text-[#25D366] cursor-pointer md:hover:text-[#23ff73] transition-colors"/>
+                    <InstagramLogo className="text-[#E4405F] cursor-pointer md:hover:text-[#ff1c45] transition-colors"/>
                     <TiktokLogo className="text-[#000] cursor-pointer"/>
                 </div>
             </div>

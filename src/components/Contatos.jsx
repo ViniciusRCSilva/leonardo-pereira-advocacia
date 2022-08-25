@@ -51,7 +51,7 @@ export default function Contatos(){
 
                 {/* Mapa */}
                 <div className="flex flex-col items-center md:mt-0 mt-6">
-                    <span className="text-[#001eff] text-xl">SAIBA ONDE NOS ENCONTRAR!</span>
+                    <span className="text-[#001eff] text-xl">SAIBA ONDE NOS ENCONTRAR</span>
                 
                     {/* Mapa para Mobile */}
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15797.160604879926!2d-34.91757025!3d-8.1734964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1661457244569!5m2!1spt-BR!2sbr" 
