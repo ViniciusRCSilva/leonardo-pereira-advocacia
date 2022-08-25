@@ -59,7 +59,7 @@ export default function Contatos(){
                         height="300" 
                         allowFullScreen="" 
                         loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade"
+                        referrerPolicy="no-referrer-when-downgrade"
                         className="flex md:hidden rounded-md"
                     ></iframe>   
 
@@ -69,7 +69,7 @@ export default function Contatos(){
                         height="350" 
                         allowFullScreen="" 
                         loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade"
+                        referrerPolicy="no-referrer-when-downgrade"
                         className="hidden md:flex rounded-md"
                     ></iframe>    
 
