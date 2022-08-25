@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Leonardo Pereira | Sociedade de Advocacia</title>
+        <link rel="shortcut icon" href="/static/favicon.ico" />
       </Head>
       <Component {...pageProps} />
     </>
