@@ -9,6 +9,10 @@ module.exports = {
       fontFamily: {
         'montserrat': ['Montserrat', 'sans-serif'] ,
         'raleway': ['Raleway' , 'sans-serif']
+      },
+      backgroundImage: {
+        'banner': "url('../img/banner.jpeg')",
+        'banner2': "url('../img/banner2.jpg')",
       }
     },
   },
