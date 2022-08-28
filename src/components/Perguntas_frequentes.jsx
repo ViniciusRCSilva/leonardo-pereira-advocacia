@@ -11,7 +11,7 @@ export default function Perguntas_frequentes(){
 
             <div className='flex flex-col md:items-start items-center'>
                 <Disclosure>
-                    <Disclosure.Button className="py-2 flex flex-row items-center p-4 rounded-lg mb-4">
+                    <Disclosure.Button className="py-2 flex flex-row items-center p-4 rounded-lg mb-4 link link-underline link-underline-white">
                     Pergunta frequente 1
                     <CaretDown className="ml-2 animate-pulse"/>
                     </Disclosure.Button>
@@ -21,7 +21,7 @@ export default function Perguntas_frequentes(){
                 </Disclosure>
 
                 <Disclosure>
-                    <Disclosure.Button className="py-2 flex flex-row items-center transition-colors p-4 rounded-lg mb-4">
+                    <Disclosure.Button className="py-2 flex flex-row items-center p-4 rounded-lg mb-4 link link-underline link-underline-white">
                     Pergunta frequente 2
                     <CaretDown className="ml-2 animate-pulse"/>
                     </Disclosure.Button>
@@ -31,7 +31,7 @@ export default function Perguntas_frequentes(){
                 </Disclosure>
 
                 <Disclosure>
-                    <Disclosure.Button className="py-2 flex flex-row items-center transition-colors p-4 rounded-lg mb-4">
+                    <Disclosure.Button className="py-2 flex flex-row items-center p-4 rounded-lg mb-4 link link-underline link-underline-white">
                     Pergunta frequente 3
                     <CaretDown className="ml-2 animate-pulse"/>
                     </Disclosure.Button>

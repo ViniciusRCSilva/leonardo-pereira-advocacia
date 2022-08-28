@@ -7,13 +7,15 @@ export default function Empresa_apresentacao(){
         <>
             {/* Logo e Nome da empresa - versão desktop */}
             <div className="hidden items-center md:flex w-full flex-col mt-20 shadow-lg pb-6">
-                <Image src={Logo} width={180} height={180} className="rounded-full"/>
-                <span className="text-3xl pt-2">Leonardo Pereira</span>
+                <div className="rounded-full border-[#141e30]">
+                    <Image src={Logo} width={180} height={180} className="rounded-full"/>
+                </div>
+                <span className="text-3xl mt-2">Leonardo Pereira</span>
                 <span className="text-xl font-raleway">Sociedade de Advocacia</span>
             </div>
 
             {/* Logo e Nome da empresa - versão mobile */}
-            <div className="flex items-center md:hidden w-full flex-col mt-32 shadow-lg pb-6">
+            <div className="flex items-center md:hidden w-full flex-col mt-14 shadow-lg pb-6">
                 <Image src={Logo} width={90} height={90} className=" rounded-full"/>
                 <span className="text-xl pt-2">Leonardo Pereira</span>
                 <span className="text-lg">Sociedade de Advocacia</span>

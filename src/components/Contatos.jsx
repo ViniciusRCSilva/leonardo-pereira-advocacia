@@ -50,28 +50,30 @@ export default function Contatos(){
                 </div>
 
                 {/* Mapa */}
-                <div className="flex flex-col items-center md:mt-0 mt-6">
-                    <span className="text-[#212a72FF] text-xl">SAIBA ONDE NOS ENCONTRAR</span>
+                <div className="flex flex-col items-center md:mt-0 mt-10">
+                    <span className="text-[#212a72FF] text-lg font-bold">SAIBA ONDE NOS ENCONTRAR</span>
                 
                     {/* Mapa para Mobile */}
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15797.160604879926!2d-34.91757025!3d-8.1734964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1661457244569!5m2!1spt-BR!2sbr" 
-                        width="300" 
-                        height="300" 
-                        allowFullScreen="" 
-                        loading="lazy" 
-                        referrerPolicy="no-referrer-when-downgrade"
-                        className="flex md:hidden rounded-md"
-                    ></iframe>   
+                    <div className="flex md:hidden border-4 border-[#212a72FF] rounded-md mt-2">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15797.160604879926!2d-34.91757025!3d-8.1734964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1661457244569!5m2!1spt-BR!2sbr" 
+                            width="300" 
+                            height="300" 
+                            allowFullScreen="" 
+                            loading="lazy" 
+                            referrerPolicy="no-referrer-when-downgrade"
+                        ></iframe>   
+                    </div>
 
                     {/* Mapa para Desktop */}
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15797.160604879926!2d-34.91757025!3d-8.1734964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1661457244569!5m2!1spt-BR!2sbr" 
-                        width="400" 
-                        height="350" 
-                        allowFullScreen="" 
-                        loading="lazy" 
-                        referrerPolicy="no-referrer-when-downgrade"
-                        className="hidden md:flex rounded-md"
-                    ></iframe>    
+                    <div className="hidden md:flex border-4 border-[#212a72FF] rounded-md mt-2">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15797.160604879926!2d-34.91757025!3d-8.1734964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1661457244569!5m2!1spt-BR!2sbr" 
+                            width="400" 
+                            height="350" 
+                            allowFullScreen="" 
+                            loading="lazy" 
+                            referrerPolicy="no-referrer-when-downgrade"
+                        ></iframe>    
+                    </div>
 
                     <div className="flex flex-row items-center mt-2">
                         <div className="flex flex-col">
