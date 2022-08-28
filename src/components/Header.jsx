@@ -6,13 +6,13 @@ import Logo from '../img/logo_header.png'
 
 export default function Header(){
     return(
-        <div className="bg-white h-20 w-full shadow-lg fixed z-20">
-            <div className="w-full h-full flex flex-row items-center justify-between pr-6 pl-6 font-Raleway">
+        <div className="bg-white h-20 w-full shadow-lg fixed z-20 rounded-b-xl">
+            <div className="w-full h-full flex flex-row items-center justify-between pr-6 pl-6">
                 <div className="flex flex-row items-end cursor-default">
                     <Image src={Logo} width={40} height={40}/>
                     <div className="hidden items-baseline text-[#212a72FF] md:flex flex-row pl-4">
                         <span className="text-2xl">Leonardo Pereira</span>
-                        <span className="text-md pl-2">Sociedade de Advocacia</span>
+                        <span className="text-md pl-2 font-raleway">Sociedade de Advocacia</span>
                     </div>
                 </div>
 

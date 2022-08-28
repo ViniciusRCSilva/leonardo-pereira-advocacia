@@ -6,23 +6,23 @@ export default function Empresa_apresentacao(){
     return(
         <>
             {/* Logo e Nome da empresa - versão desktop */}
-            <div className="hidden items-center md:flex w-full flex-col mt-20">
+            <div className="hidden items-center md:flex w-full flex-col mt-20 shadow-lg pb-6">
                 <Image src={Logo} width={180} height={180} className="rounded-full"/>
-                <span className="text-3xl">Leonardo Pereira</span>
-                <span className="text-xl">Sociedade de Advocacia</span>
+                <span className="text-3xl pt-2">Leonardo Pereira</span>
+                <span className="text-xl font-raleway">Sociedade de Advocacia</span>
             </div>
 
             {/* Logo e Nome da empresa - versão mobile */}
-            <div className="flex items-center md:hidden w-full flex-col mt-32">
-                <Image src={Logo} width={90} height={90} className=" rounded-full "/>
+            <div className="flex items-center md:hidden w-full flex-col mt-32 shadow-lg pb-6">
+                <Image src={Logo} width={90} height={90} className=" rounded-full"/>
                 <span className="text-xl pt-2">Leonardo Pereira</span>
                 <span className="text-lg">Sociedade de Advocacia</span>
             </div>
 
             {/* Descrição empresa */}
-            <div className="flex flex-col items-center text-center pt-12">
-            <span className="text-[#001eff] text-xl">QUEM SOMOS?</span>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui illo quisquam autem non libero? Velit assumenda ea laborum, ullam quas cum sapiente tempore ratione nostrum possimus ad reiciendis voluptatum. Cumque.</span>
+            <div className="flex flex-col items-center text-center mt-12 pl-10 pr-10 p-2">
+            <span className="text-[#212a72FF] text-xl font-bold">QUEM SOMOS?</span>
+            <span className="font-raleway mt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui illo quisquam autem non libero? Velit assumenda ea laborum, ullam quas cum sapiente tempore ratione nostrum possimus ad reiciendis voluptatum. Cumque.</span>
             </div>
         </>
 
