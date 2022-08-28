@@ -13,11 +13,11 @@ export default function Home() {
           {/* Conteúdo Geral */}
           <div className="flex flex-col w-full md:w-[75%] bg-white pt-20 items-center">
 
-            {/* Imagem de fundo */}
-            <div className="absolute z-0 w-full md:w-[75%] h-40 items-center justify-center bg-[#4f4f4f]"></div>
+            {/* Imagem de fundo desktop */}
+            <div className="absolute z-0 w-full md:w-[75%] h-24 md:h-40 items-center justify-center bg-banner2 bg-no-repeat bg-center bg-cover"></div>
 
             {/* Corpo da página */}
-            <div className="md:w-[100%] z-10 pb-10">
+            <div className="w-full z-10 pb-10">
               {/* Apresentação Empresa */}
               <div className="">
                 <Empresa_apresentacao/>
