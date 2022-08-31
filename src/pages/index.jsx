@@ -4,6 +4,7 @@ import Perfil_apresentacao from "../components/Perfil_apresentacao";
 import Area_de_atuacao from "../components/Area_de_atuacao";
 import Perguntas_frequentes from "../components/Perguntas_frequentes";
 import Contatos from "../components/Contatos";
+import Canal_youtube from "../components/Canal_youtube";
 
 export default function Home() {
   return (
@@ -24,17 +25,17 @@ export default function Home() {
               </div>
 
               {/* Apresentação Perfil */}
-              <div className="box-decoration-clone bg-gradient-to-r from-[#141e30] to-[#243b55] shadow-2xl mt-12 pl-10 pr-10 p-2 text-white">
+              <div className="bg-gradient-to-r from-[#141e30] to-[#243b55] shadow-2xl mt-12 px-10 p-2 text-white">
                 <Perfil_apresentacao/>
               </div>
 
               {/* Áreas de atuação */}
-              <div className="mt-12 pl-10 pr-10 p-2">
+              <div className="mt-12 px-10 p-2">
                 <Area_de_atuacao/>
               </div>
 
               {/* Perguntas frequentes */}
-              <div className="box-decoration-clone bg-gradient-to-r from-[#243b55] to-[#141e30] shadow-2xl mt-12 pl-10 pr-10 p-2 text-white">
+              <div className="bg-gradient-to-r from-[#243b55] to-[#141e30] shadow-2xl mt-12 pl-10 pr-10 p-2 text-white">
                 <Perguntas_frequentes/>
               </div>
 
@@ -42,6 +43,11 @@ export default function Home() {
               <div className="mt-12 pl-10 pr-10 p-2">
                 <Contatos/>
               </div>
+
+{/*               <div className="flex w-full justify-center my-12">
+                <div className="w-[95%] h-2 bg-gradient-to-r from-[#141e30] to-[#243b55] rounded-full"/>
+              </div> */}
+
             </div>
           </div>
       </div>    
