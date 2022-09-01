@@ -1,6 +1,6 @@
-import { Phone, GoogleLogo, InstagramLogo, TiktokLogo } from "phosphor-react";
-
 import Canal_youtube from './Canal_youtube'
+import Blue_WhatsApp_Button from "../components/Blue_WhatsApp_Button";
+import Lista_Contatos from "./Lista_Contatos";
 
 export default function Contatos(){
     return(
@@ -13,47 +13,14 @@ export default function Contatos(){
                         <span className="text-[#212a72FF] text-xl font-bold">CONTATOS</span>
                     </div>
                     <div className="flex flex-col w-full items-center lg:items-start">
-                        {/* Lista de contatos */}
-                        <div className="flex flex-row items-center mt-2">
-                            <div className="flex flex-col">
-                                <div className="flex flex-row items-center">
-                                    <Phone className="text-[#212a72FF] mr-2"/>
-                                    <span>Telefone: (81) 9 9999-9999</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="flex flex-row items-center mt-2">
-                            <div className="flex flex-col">
-                                <div className="flex flex-row items-center">
-                                    <GoogleLogo className="text-[#212a72FF] mr-2"/>
-                                    <span>E-Mail: email@gmail.com</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="flex flex-row items-center mt-2">
-                            <div className="flex flex-col">
-                                <div className="flex flex-row items-center">
-                                    <InstagramLogo className="text-[#212a72FF] mr-2"/>
-                                    <span>Instagram: @nomeInstagram</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="flex flex-row items-center mt-2">
-                            <div className="flex flex-col">
-                                <div className="flex flex-row items-center">
-                                    <TiktokLogo className="text-[#212a72FF] mr-2"/>
-                                    <span>Tiktok: @nomeTiktok</span>
-                                </div>
-                            </div>
-                        </div>
+                        <Lista_Contatos/>
                     </div>
 
+                    <div className="mt-6">
+                        <Blue_WhatsApp_Button/>
+                    </div>
                 </div>
 
-                {/* Youtube */}
                 <div className="mt-10 lg:mt-0">
                     <Canal_youtube/>
                 </div>
