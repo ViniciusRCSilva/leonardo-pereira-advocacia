@@ -12,7 +12,6 @@ export default function Empresa_apresentacao(){
                 <div className="flex lg:hidden border-white border-8 rounded-lg">
                     <Image src={foto_perfil} width={100} height={100}/>
                 </div>
-                {/* <div className="flex lg:hidden w-20 h-20 bg-white rounded-lg"></div> */}
 
                 {/* Nome e descrição */}
                 <div className="flex flex-col w-full justify-center items-center lg:w-[50%] lg:items-start">
