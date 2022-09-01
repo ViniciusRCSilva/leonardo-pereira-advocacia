@@ -5,6 +5,7 @@ import Area_de_atuacao from "../components/Area_de_atuacao";
 import Perguntas_frequentes from "../components/Perguntas_frequentes";
 import Contatos from "../components/Contatos";
 import Canal_youtube from "../components/Canal_youtube";
+import Mapa from "../components/Mapa";
 
 export default function Home() {
   return (
@@ -12,10 +13,10 @@ export default function Home() {
       <Header/>
       <div className="flex w-full justify-center items-center align-middle">
           {/* Conteúdo Geral */}
-          <div className="flex flex-col w-full md:w-[75%] bg-white pt-20 items-center">
+          <div className="flex flex-col w-full lg:w-[75%] bg-white pt-20 items-center">
 
             {/* Imagem de fundo desktop */}
-            <div className="absolute z-0 w-full md:w-[75%] h-24 md:h-40 items-center justify-center bg-banner2 bg-no-repeat bg-center bg-cover"></div>
+            <div className="absolute z-0 w-full lg:w-[75%] h-24 lg:h-40 items-center justify-center bg-banner2 bg-no-repeat bg-center bg-cover"></div>
 
             {/* Corpo da página */}
             <div className="w-full z-10 pb-10">
@@ -35,19 +36,19 @@ export default function Home() {
               </div>
 
               {/* Perguntas frequentes */}
-              <div className="bg-gradient-to-r from-[#243b55] to-[#141e30] shadow-2xl mt-12 pl-10 pr-10 p-2 text-white">
+              <div className="bg-gradient-to-r from-[#243b55] to-[#141e30] shadow-2xl mt-12 px-10 p-2 text-white">
                 <Perguntas_frequentes/>
               </div>
 
               {/* Contatos */}
-              <div className="mt-12 pl-10 pr-10 p-2">
+              <div className="mt-12 px-10 p-2">
                 <Contatos/>
               </div>
 
-{/*               <div className="flex w-full justify-center my-12">
-                <div className="w-[95%] h-2 bg-gradient-to-r from-[#141e30] to-[#243b55] rounded-full"/>
-              </div> */}
-
+              {/* Mapa */}
+              <div className="w-full mt-12 px-10 p-2">
+                <Mapa/>
+              </div>
             </div>
           </div>
       </div>    

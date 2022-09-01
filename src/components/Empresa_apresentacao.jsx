@@ -6,7 +6,7 @@ export default function Empresa_apresentacao(){
     return(
         <>
             {/* Logo e Nome da empresa - versão desktop */}
-            <div className="hidden items-center md:flex w-full flex-col mt-20 shadow-lg pb-6">
+            <div className="hidden items-center lg:flex w-full flex-col mt-20 shadow-lg pb-6">
                 <div className="rounded-full border-[#141e30]">
                     <Image src={Logo} width={180} height={180} className="rounded-full"/>
                 </div>
@@ -15,7 +15,7 @@ export default function Empresa_apresentacao(){
             </div>
 
             {/* Logo e Nome da empresa - versão mobile */}
-            <div className="flex items-center md:hidden w-full flex-col mt-14 shadow-lg pb-6">
+            <div className="flex items-center lg:hidden w-full flex-col mt-14 shadow-lg pb-6">
                 <Image src={Logo} width={90} height={90} className=" rounded-full"/>
                 <span className="text-xl pt-2">Leonardo Pereira</span>
                 <span className="text-lg">Sociedade de Advocacia</span>
