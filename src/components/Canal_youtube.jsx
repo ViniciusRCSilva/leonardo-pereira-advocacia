@@ -2,6 +2,10 @@ import { YoutubeLogo } from "phosphor-react"
 
 import Image from 'next/image'
 
+function Channel_Image(){
+    return `https://yt3.ggpht.com/Rc-k_JZvXgxioE-OOeFL_mrLzU4TctgOgbSYvw48rFBNyGc5F4erLieogaFu0xON3BHLklnHyw=s1920-c-k-c0x00ffffff-no-rj`
+}
+
 export default function Principais_videos(){
     return(
         <div>
@@ -22,7 +26,7 @@ export default function Principais_videos(){
 
                 {/* Imagem mobile */}
                 <div className="flex md:hidden mb-2 rounded-full shadow-lg">
-                    <Image src="https://yt3.ggpht.com/Rc-k_JZvXgxioE-OOeFL_mrLzU4TctgOgbSYvw48rFBNyGc5F4erLieogaFu0xON3BHLklnHyw=s1920-c-k-c0x00ffffff-no-rj" 
+                    <Image src={Channel_Image()} 
                         width={150} 
                         height={150}
                         className="rounded-full"
@@ -31,7 +35,7 @@ export default function Principais_videos(){
 
                 {/* Imagem desktop */}
                 <div className="hidden md:flex rounded-full shadow-lg">
-                    <Image src="https://yt3.ggpht.com/Rc-k_JZvXgxioE-OOeFL_mrLzU4TctgOgbSYvw48rFBNyGc5F4erLieogaFu0xON3BHLklnHyw=s1920-c-k-c0x00ffffff-no-rj" 
+                    <Image src={Channel_Image()} 
                         width={200} 
                         height={200}
                         className="rounded-full"
