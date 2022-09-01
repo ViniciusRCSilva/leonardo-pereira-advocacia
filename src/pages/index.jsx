@@ -4,8 +4,9 @@ import Perfil_apresentacao from "../components/Perfil_apresentacao";
 import Area_de_atuacao from "../components/Area_de_atuacao";
 import Perguntas_frequentes from "../components/Perguntas_frequentes";
 import Contatos from "../components/Contatos";
-import Canal_youtube from "../components/Canal_youtube";
 import Mapa from "../components/Mapa";
+import Instagram_Feed from "../components/Instagram";
+import White_WhatsApp_Button from "../components/White_WhatsApp_Button";
 
 export default function Home() {
   return (
@@ -26,8 +27,9 @@ export default function Home() {
               </div>
 
               {/* Apresentação Perfil */}
-              <div className="bg-gradient-to-r from-[#141e30] to-[#243b55] shadow-2xl mt-12 px-10 p-2 text-white">
+              <div className="bg-gradient-to-r from-[#141e30] to-[#243b55] shadow-2xl mt-12 px-10 pt-2 pb-6 text-white">
                 <Perfil_apresentacao/>
+                <White_WhatsApp_Button/>
               </div>
 
               {/* Áreas de atuação */}
@@ -45,8 +47,11 @@ export default function Home() {
                 <Contatos/>
               </div>
 
+              {/* Instagram */}
+              <Instagram_Feed/>
+
               {/* Mapa */}
-              <div className="w-full mt-12 px-10 p-2">
+              <div className="w-full lg:mt-12 px-10 p-2">
                 <Mapa/>
               </div>
             </div>
