@@ -12,11 +12,6 @@ export default function Principais_videos(){
             <div className="flex flex-col lg:flex-row items-center mb-6">
                 <span className="text-[#212a72FF] text-center lg:text-left text-xl font-bold">
                     CONHEÇA O NOSSO CANAL DO YOUTUBE
-{/*                     <div className="flex flex-row items-center w-full justify-center lg:justify-start">
-                        <span>YOUTUBE</span>
-                        <YoutubeLogo weight="fill" className="text-red-500 text-3xl lg:text-2xl ml-2"/>    
-                    </div>  */}
-
                 </span>
                     <YoutubeLogo weight="fill" className="text-red-500 text-3xl lg:text-2xl ml-2"/> 
                 
