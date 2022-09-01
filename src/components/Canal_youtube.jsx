@@ -48,6 +48,7 @@ export default function Principais_videos(){
                         <a  
                             href="https://www.youtube.com/channel/UCtOIAzapssSHii6hAdI_E-w/featured" 
                             target="_blank"
+                            rel="noreferrer"
                             className="font-raleway text-center w-48 text-white bg-red-600 md:hover:opacity-90 transition-all rounded-md p-2"
                         >
                             INSCREVER-SE
