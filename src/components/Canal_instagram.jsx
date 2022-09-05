@@ -1,4 +1,4 @@
-import { YoutubeLogo } from "phosphor-react"
+import { InstagramLogo } from "phosphor-react"
 import Image from 'next/image'
 
 function Channel_Image(){
@@ -10,9 +10,9 @@ export default function Principais_videos(){
         <div className="flex flex-col w-full lg:w-[80%] bg-white shadow-xl rounded-b-2xl rounded-r-2xl p-4 mb-6">
             <span 
                 className="flex flex-row items-center mb-4">
-                YOUTUBE 
-                <YoutubeLogo 
-                    className="text-red-500 ml-2 text-2xl"
+                INSTAGRAM 
+                <InstagramLogo 
+                    className="text-[#E4405F] ml-2 text-2xl"
                 />
             </span>
 
@@ -39,12 +39,12 @@ export default function Principais_videos(){
                     <span className="text-md font-bold mb-2 lg:w-56">Leonardo Pereira Sociedade de Advocacia</span>
                     <div className="w-full flex justify-center lg:justify-start">
                         <a  
-                            href="https://www.youtube.com/channel/UCtOIAzapssSHii6hAdI_E-w/featured" 
+                            href="" 
                             target="_blank"
                             rel="noreferrer"
-                            className="font-raleway text-center w-48 text-white bg-red-600 lg:hover:opacity-90 transition-all rounded-md p-2"
+                            className="font-raleway text-center w-48 text-white bg-gradient-to-r from-[#fd5949] to-[#d6249f] lg:hover:opacity-90 transition-all rounded-md p-2"
                         >
-                            INSCREVER-SE
+                            SEGUIR
                         </a>
                     </div>
                 </div>
