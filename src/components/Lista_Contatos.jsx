@@ -30,34 +30,6 @@ export default function Lista_Contatos(){
                     </div>
                 </div>
             </a>
-
-            <a 
-                className="flex flex-row items-center mt-2 lg:hover:scale-105 transition-all"
-                href="https://www.instagram.com/_vini.rcs_/" 
-                target="_blank"
-                rel="noreferrer"
-            >
-                <div className="flex flex-col">
-                    <div className="flex flex-row items-center">
-                        <InstagramLogo className="text-[#212a72FF] mr-2"/>
-                        <span>Instagram: @nomeInstagram</span>
-                    </div>
-                </div>
-            </a>
-
-            <a 
-                className="flex flex-row items-center mt-2 lg:hover:scale-105 transition-all"
-                href="" 
-                target="_blank"
-                rel="noreferrer"
-            >
-                <div className="flex flex-col">
-                    <div className="flex flex-row items-center">
-                        <TiktokLogo className="text-[#212a72FF] mr-2"/>
-                        <span>Tiktok: @nomeTiktok</span>
-                    </div>
-                </div>
-            </a>
         </>
     )
 }

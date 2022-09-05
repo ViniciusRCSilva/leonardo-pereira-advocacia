@@ -5,7 +5,6 @@ import Area_de_atuacao from "../components/Area_de_atuacao";
 import Perguntas_frequentes from "../components/Perguntas_frequentes";
 import Contatos from "../components/Contatos";
 import Mapa from "../components/Mapa";
-import Instagram_Feed from "../components/Instagram";
 import White_WhatsApp_Button from "../components/White_WhatsApp_Button";
 
 export default function Home() {
@@ -45,14 +44,6 @@ export default function Home() {
               {/* Contatos */}
               <div className="mt-12 px-10 p-2">
                 <Contatos/>
-              </div>
-
-              {/* Instagram */}
-              <Instagram_Feed/>
-
-              {/* Mapa */}
-              <div className="w-full lg:mt-12 px-10 p-2">
-                <Mapa/>
               </div>
             </div>
           </div>
