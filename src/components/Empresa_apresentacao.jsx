@@ -18,7 +18,7 @@ export default function Empresa_apresentacao(){
             <div className="flex items-center lg:hidden w-full flex-col mt-14 shadow-lg pb-6">
                 <Image src={Logo} width={90} height={90} className=" rounded-full"/>
                 <span className="text-xl pt-2">Leonardo Pereira</span>
-                <span className="text-lg">Sociedade de Advocacia</span>
+                <span className="text-lg font-raleway">Sociedade de Advocacia</span>
             </div>
 
             {/* Descrição empresa */}
