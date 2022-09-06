@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import foto_perfil from '../img/person_photo.jpeg'
+import foto_perfil from '../img/leonardo_pereira.jpeg'
 
 export default function Empresa_apresentacao(){
     return(
@@ -9,8 +9,8 @@ export default function Empresa_apresentacao(){
             <div className="flex flex-col justify-center items-center lg:flex-row lg:justify-between lg:items-start w-full mt-6 mb-6">
             
                 {/* Foto - Mobile */}
-                <div className="flex lg:hidden border-white border-8 rounded-lg">
-                    <Image src={foto_perfil} width={100} height={100}/>
+                <div className="flex lg:hidden">
+                    <Image src={foto_perfil} width={200} height={200} className="rounded-lg"/>
                 </div>
 
                 {/* Nome e descrição */}
@@ -20,10 +20,9 @@ export default function Empresa_apresentacao(){
                 </div>
 
                 {/* Foto - Desktop */}
-                <div className="hidden lg:flex border-white border-8 rounded-lg">
-                    <Image src={foto_perfil} width={200} height={200}/>
-                </div>
-                {/* <div className="hidden lg:flex w-80 h-80 bg-white rounded-lg"></div> */}                         
+                <div className="hidden lg:flex">
+                    <Image src={foto_perfil} width={300} height={300} className="rounded-lg"/>
+                </div>                     
 
             </div>            
         </>
