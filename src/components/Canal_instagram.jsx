@@ -2,7 +2,7 @@ import { InstagramLogo } from "phosphor-react"
 import Image from 'next/image'
 
 function Channel_Image(){
-    return `https://yt3.ggpht.com/Rc-k_JZvXgxioE-OOeFL_mrLzU4TctgOgbSYvw48rFBNyGc5F4erLieogaFu0xON3BHLklnHyw=s1920-c-k-c0x00ffffff-no-rj`
+    return `https://instagram.frec17-1.fna.fbcdn.net/v/t51.2885-19/269768371_1042782779600684_4300817812173427951_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.frec17-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=Rwf5TLq5tRgAX_FW-Lg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AT_Bm1vkkmdWBimoYYy3jBlSTHiSVgx_4UhLpdWAnc-f0w&oe=631E6E20&_nc_sid=8fd12b`
 }
 
 export default function Principais_videos(){
@@ -36,10 +36,10 @@ export default function Principais_videos(){
                 </div>
 
                 <div className="flex flex-col text-center lg:text-left ml-4">
-                    <span className="text-md font-bold mb-2 lg:w-56">Leonardo Pereira Sociedade de Advocacia</span>
+                    <span className="text-md font-bold mb-2 lg:w-56">leonardopereira.adv</span>
                     <div className="w-full flex justify-center lg:justify-start">
                         <a  
-                            href="" 
+                            href="https://www.instagram.com/leonardopereira.adv/" 
                             target="_blank"
                             rel="noreferrer"
                             className="font-raleway text-center w-48 text-white bg-gradient-to-r from-[#fd5949] to-[#d6249f] lg:hover:opacity-90 transition-all rounded-md p-2"
