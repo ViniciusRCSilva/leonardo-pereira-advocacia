@@ -3,8 +3,8 @@ import { MapPin } from "phosphor-react";
 export default function Mapa(){
     return(
         <div className="flex flex-col lg:justify-between items-center lg:items-start lg:mt-0 mt-10">
-            <div className="flex flex-col">
-                <span className="text-[#212a72FF] text-lg font-bold">SAIBA ONDE NOS ENCONTRAR</span>
+            <div className="flex flex-col items-center lg:items-start">
+                <span className="text-[#212a72FF] text-md lg:text-lg font-bold">SAIBA ONDE NOS ENCONTRAR</span>
 
                 <div className="flex flex-row items-center mt-2">
                     <div className="flex flex-col">
