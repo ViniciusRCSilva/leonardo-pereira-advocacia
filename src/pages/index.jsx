@@ -4,7 +4,6 @@ import Perfil_apresentacao from "../components/Perfil_apresentacao";
 import Area_de_atuacao from "../components/Area_de_atuacao";
 import Perguntas_frequentes from "../components/Perguntas_frequentes";
 import Contatos from "../components/Contatos";
-import Mapa from "../components/Mapa";
 import White_WhatsApp_Button from "../components/White_WhatsApp_Button";
 
 export default function Home() {
@@ -16,7 +15,7 @@ export default function Home() {
           <div className="flex flex-col w-full lg:w-[75%] bg-white pt-20 items-center">
 
             {/* Imagem de fundo desktop */}
-            <div className="absolute z-0 w-full lg:w-[75%] h-24 lg:h-40 items-center justify-center bg-banner2 bg-no-repeat bg-center bg-cover"></div>
+            <div className="absolute z-0 w-full lg:w-[75%] h-24 lg:h-40 bg-banner bg-no-repeat bg-cover"></div>
 
             {/* Corpo da página */}
             <div className="w-full z-10 pb-10">

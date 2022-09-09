@@ -12,7 +12,7 @@ module.exports = {
       },
       backgroundImage: {
         'banner': "url('../img/banner.jpeg')",
-        'banner2': "url('../img/banner2.jpg')",
+        'banner2': "url('../img/banner2.jpeg')",
       }
     },
   },

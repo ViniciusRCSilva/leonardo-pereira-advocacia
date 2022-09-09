@@ -1,8 +1,5 @@
 import { ArrowBendDownRight } from "phosphor-react";
 
-import Image from 'next/image'
-import banner from '../img/banner.jpeg'
-
 export default function Area_de_atuacao(){
     return(
         <>
@@ -10,7 +7,10 @@ export default function Area_de_atuacao(){
             <div className="mt-12 lg:text-start text-center">
                 <span className="text-[#212a72FF] text-xl font-bold">ÁREA DE ATUAÇÃO</span>
             </div>
-            <div className="flex w-full h-40 items-center justify-center mt-6 bg-banner bg-no-repeat bg-center bg-contain lg:bg-cover rounded-lg"></div>
+
+            <div className="flex w-full justify-center">
+                <div className="flex w-full h-24 lg:h-40 mt-6 bg-banner2 bg-no-repeat bg-center bg-cover rounded-lg"></div>
+            </div>
 
             {/* Tópicos */}
             <div className="flex flex-col w-full justify-center mt-4">
