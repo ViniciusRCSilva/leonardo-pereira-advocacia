@@ -1,6 +1,28 @@
+import { useState } from "react";
 import { MapPin } from "phosphor-react";
+import copy from "copy-to-clipboard";  
+import { Alert, Snackbar } from "@mui/material";
 
 export default function Mapa(){
+    const [open, setOpen] = useState(false);
+  
+    const handleClose = (event, reason) => {
+      if (reason === 'clickaway') {
+        return;
+      }
+  
+      setOpen(false);
+    };
+
+    const endereco = 'Rua tal, PE, 12345-678'
+
+    const copyToClipboard = () => {
+       copy(endereco);
+
+       setOpen(true);
+    }
+
+
     return(
         <div className="flex flex-col lg:justify-between items-center lg:items-start lg:mt-0 mt-10">
             <div className="flex flex-col items-center lg:items-start">
@@ -8,12 +30,21 @@ export default function Mapa(){
 
                 <div className="flex flex-row items-center mt-2">
                     <div className="flex flex-col">
-                        <div className="flex flex-row items-center">
+                        <div 
+                            className="flex flex-row items-center lg:cursor-pointer lg:hover:scale-105 transition-all"
+                            onClick={copyToClipboard}
+                        >
                             <MapPin weight="fill" className="text-[#212a72FF] mr-2"/>
-                            <span>Endereço: Rua tal, PE, 12345-678</span>
+                            <span>Endereço: {endereco}</span>
                         </div>
                     </div>
                 </div>
+
+                <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+                    <Alert onClose={handleClose} severity="success" sx={{ width: '100%' }} className="animate-bounce">
+                        Endereço copiado!
+                    </Alert>
+                </Snackbar>
             </div>
         
             {/* Mapa para Mobile */}
