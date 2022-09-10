@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MapPin } from "phosphor-react";
+import { Files, MapPin } from "phosphor-react";
 import copy from "copy-to-clipboard";  
 import { Alert, Snackbar } from "@mui/material";
 
@@ -30,19 +30,24 @@ export default function Mapa(){
 
                 <div className="flex flex-row items-center mt-2">
                     <div className="flex flex-col">
-                        <div 
-                            className="flex flex-row items-center lg:cursor-pointer lg:hover:scale-105 transition-all"
-                            onClick={copyToClipboard}
-                        >
+                        <div className="flex flex-row items-center">
                             <MapPin weight="fill" className="text-[#212a72FF] mr-2"/>
                             <span>Endereço: {endereco}</span>
+
+                            <Files 
+                                weight="bold" 
+                                className="bg-[#212a72FF] text-white p-1 rounded-md text-2xl ml-2 lg:cursor-pointer lg:hover:scale-105 transition-all"
+                                onClick={copyToClipboard}    
+                            />
                         </div>
                     </div>
                 </div>
 
                 <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
                     <Alert onClose={handleClose} severity="success" sx={{ width: '100%' }} className="animate-bounce">
-                        Endereço copiado!
+                        <span className="font-raleway">
+                            Endereço copiado!
+                        </span>
                     </Alert>
                 </Snackbar>
             </div>
