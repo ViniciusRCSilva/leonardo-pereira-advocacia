@@ -34,7 +34,7 @@ export default function Header(){
                     </a>
 
                     <a 
-                    href=""
+                    href="https://www.tiktok.com/@leonardopereira.adv?lang=pt-BR"
                     target="_blank"
                     rel="noreferrer"
                     >

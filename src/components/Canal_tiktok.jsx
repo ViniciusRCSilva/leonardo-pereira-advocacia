@@ -2,7 +2,7 @@ import { TiktokLogo } from "phosphor-react"
 import Image from 'next/image'
 
 function Channel_Image(){
-    return `https://yt3.ggpht.com/Rc-k_JZvXgxioE-OOeFL_mrLzU4TctgOgbSYvw48rFBNyGc5F4erLieogaFu0xON3BHLklnHyw=s1920-c-k-c0x00ffffff-no-rj`
+    return `https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/23756da4310d263fe58d61fc54dc71e7~c5_100x100.jpeg?x-expires=1663016400&x-signature=3oi8yFkDvEG6LIpc3iG8nZO0y9E%3D`
 }
 
 export default function Principais_videos(){
@@ -39,7 +39,7 @@ export default function Principais_videos(){
                     <span className="text-md font-bold mb-2 lg:w-56">Leonardo Pereira Sociedade de Advocacia</span>
                     <div className="w-full flex justify-center lg:justify-start">
                         <a  
-                            href="" 
+                            href="https://www.tiktok.com/@leonardopereira.adv?lang=pt-BR" 
                             target="_blank"
                             rel="noreferrer"
                             className="font-raleway text-center w-48 text-white bg-gradient-to-r from-[#141e30] to-[#243b55] lg:hover:opacity-90 transition-all rounded-md p-2"
