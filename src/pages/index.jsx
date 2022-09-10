@@ -12,10 +12,10 @@ export default function Home() {
       <Header/>
       <div className="flex w-full justify-center items-center align-middle">
           {/* Conteúdo Geral */}
-          <div className="flex flex-col w-full lg:w-[75%] bg-white pt-20 items-center">
+          <div className="flex flex-col w-full lg:w-[75%] bg-white pt-14 lg:pt-20 items-center">
 
             {/* Imagem de fundo desktop */}
-            <div className="absolute z-0 w-full lg:w-[75%] h-24 lg:h-40 bg-banner bg-no-repeat bg-cover"></div>
+            <div className="absolute z-0 w-full lg:lg:w-[75%] h-24 lg:h-40 bg-banner bg-no-repeat bg-contain lg:bg-cover bg-center"></div>
 
             {/* Corpo da página */}
             <div className="w-full z-10 pb-10">
